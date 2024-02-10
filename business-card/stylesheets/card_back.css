@@ -1,0 +1,9 @@
+.card-back{
+    display: block;
+    margin-top: 200px;
+}
+
+.dev-picture img{
+    width: 10px;
+    border-radius: 100%;
+}
