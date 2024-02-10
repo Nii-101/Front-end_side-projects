@@ -1,20 +1,24 @@
 body{
+    height: 100vh;
     margin: 20px;
-
     font-family: serif;
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
     width: 350px;
     border-radius: 15px;
     padding: 20px 30px;
     margin: 0 auto;
-    background-color: 354f52;
+    background-color: #354f52;
     transition: transform .9s;
+    position: absolute;
 }
 
 .card:hover{
     box-shadow: 5px 5px 3px #84a98c;
     transform: scale(1.111);
 }
- 
